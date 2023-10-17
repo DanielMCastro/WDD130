@@ -1,0 +1,20 @@
+body{
+    background-color: #acacac;
+}
+.div {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+h1{
+    grid-column: 1/2;
+    z-index: 1;
+}
+h2{
+    color: #ff00008b;
+    grid-column: 2;
+    z-index: 1
+}
+img{
+    background-color:  #ffffff;
+    grid-column: 1;
+}
