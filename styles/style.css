@@ -56,6 +56,7 @@ main section img{
     width: 100%;
     grid-column: 2/3;
     grid-row: 1/2;
+    color: #6f7364;
 }
 #hero-msg{
     margin-top: 100px;
@@ -214,9 +215,6 @@ footer .social img{
     #hero-msg h4 {
         display: none;
     }
-    #hero-msg h1 {
-        color: #6f7364;
-    }
     .home-title {
         font-size: 25px;
     }
@@ -235,5 +233,19 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+    /*.rivers-grid{
+        display: grid;
+        grid-template-columns: ;
+        grid-template-rows: repeat(10, 1fr);
+    }*/
+    #rivers-grid p {
+        text-align: justify;
+        margin: 100px 500px;
+        color: #ff1515;
+    }
+    #rivers-grid img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-            
