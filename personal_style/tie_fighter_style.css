@@ -1,19 +1,5 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
-:root {
-  --primary-color: #9EB3C2   ;
-  --secondary-color: #F57A00 ;
-  --accent1-color: #345663;
-  --accent2-color: #7C606B;
-}
-
-
 body {
   background-color: #9EB3C2;
-  width: 1fr;
   font-size: 18px;
   text-align: center;
 }
