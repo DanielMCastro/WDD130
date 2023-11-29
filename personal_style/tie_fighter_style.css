@@ -1,0 +1,60 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+  --primary-color: #9EB3C2   ;
+  --secondary-color: #F57A00 ;
+  --accent1-color: #345663;
+  --accent2-color: #7C606B;
+}
+
+
+body {
+  background-color: #9EB3C2;
+  width: 1fr;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+h2{
+  font-family: sans-serif, Helvetica;
+  color: white;
+}
+header {
+  text-align: center;
+  color: white;
+  background-color: #9EB3C2;
+}
+p {
+  font-family: sans-serif, Helvetica;
+  color: #000000;
+  padding: 3em;
+}
+nav {
+  background-color: #F57A00;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  width: 33.4%;
+  text-decoration: none;
+}
+nav a:link, nav a:visited {
+  color: white;
+}
+nav a:hover {
+    transition: .4s ease-in;
+    border: 2px solid #F57A00;
+    color: #F57A00;
+    background-color: #345663;
+}
