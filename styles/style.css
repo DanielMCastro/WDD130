@@ -154,6 +154,7 @@ footer p a:hover {
     align-self: center;
 }
 .icon{
+    width: 80px;
     padding-top: 10px
 }
 footer .social img{
@@ -249,12 +250,12 @@ footer .social img{
         margin-right: auto;
     }
       /* Center the form on the page */
-  margin: 0 auto;
-  width: 400px;
+  /*margin: 0 auto;
+  width: 400px;*/
   /* Form outline */
-  padding: 1em;
+  /*padding: 1em;
   border: 1px solid #ccc;
-  border-radius: 1em;
+  border-radius: 1em;*/
 }
 
 ul {
